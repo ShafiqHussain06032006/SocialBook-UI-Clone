@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile page - SocialBook </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/156240f917.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- All code for the navigation bar -->
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+            <img src="images/logo2.png" class="logo"> 
+        </a>
+            <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png"></li>
+                <li><img src="images/video.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+             <img src="images/search.png">
+             <input type="text" placeholder="search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()" >
+                <img src="images/profile-pic1.jpg">
+            </div>
+
+
+        </div>
+                  <!-- settings-menu -->
+          <div class="settings-menu">
+
+
+               <div id="dark-btn" >
+                  <span></span>
+            
+
+               </div>
+              <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic1.jpg" >
+                    <div>
+                <p>Shafiq Hussain</p>
+                <a href="profile.html">See your profile</a>
+                </div>
+                 </div>
+                  <hr>
+
+                 <div class="user-profile">
+                    <img src="images/feedback.png" >
+                    <div>
+                <p>Give Feedback</p>
+                <a href="#">Help us to improve the new design </a>
+                </div>
+                 </div>
+                   <hr>
+
+                   <div class="settings-links">
+                    <img src="images/setting.png" class="settings-icon">
+
+                      <a href="#">Settings & Privacy  <img src="images/arrow.png" width="10px"></a>
+                   </div>
+
+                   <div class="settings-links">
+                    <img src="images/help.png" class="settings-icon">
+
+                      <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
+                   </div>
+
+                   <div class="settings-links">
+                    <img src="images/display.png" class="settings-icon">
+
+                      <a href="#">Display & Accessibility <img src="images/arrow.png" width="10px"></a>
+                   </div>
+
+                   <div class="settings-links">
+                    <img src="images/logout.png" class="settings-icon">
+
+                      <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+                   </div>
+              </div>
+            
+          </div>
+
+
+    </nav>
+<!-- Coding for all the bar  -->
+
+            <!------------ Profile-Page -------->
+<div class="profile-container">
+  <img src="images/cover.png" class="cover-img">
+     <div class="profile-details">
+        <div class="pd-left">
+            <div class="pd-row">
+                <img src="images/profile-pic1.jpg"  class="pd-image" >
+               <div>
+                     <h3>Shafiq Hussain</h3>
+                     <p>2.7k Friends - 20 mutual </p>
+                     <img src="images/member-1.1.jpg" >
+                     <img src="images/member-2.2.jpg" >
+                     <img src="images/member-3.3.jpg" >
+                     <img src="images/member-4.4.jpg" >
+               </div>
+            </div>
+        </div>
+        
+        <div class="pd-right">
+
+            <button type="button" ><img src="images/add-friends.png">Friends</button>
+            <button type="button"><img src="images/message.png" >Message</button>
+            <br>
+            <a href="#"><img src="images/more.png"></a>
+            
+        </div>
+     </div>
+
+      <div class="profile-info">
+        <div class="info-col">
+
+            <div class="profile-intro">
+                <h3>Intro</h3>
+                <p class="intro-text">Believe in yourself and you can do unbelievable things <img src="images/feeling.png" > </p>
+                <hr>
+                <ul>
+                    <li><img src="images/profile-study.png"> Student at GIK Institute </li>
+                    <li><img src="images/profile-study.png"> Studied at Islamia College</li>
+                    <li><img src="images/profile-study.png"> Went to Kohsar Public School</li>
+                    <li><img src="images/profile-home.png"> Lives in Kurram , Pakistan</li>
+                    <li><img src="images/profile-location.png"> From Kurram , Pakistan </li>
+                </ul>
+            </div>
+
+             <div class="profile-intro">
+                <div class="title-box">
+                    <h3>Photos</h3>
+                    <a href="#">All Photos</a>
+                  </div>
+                
+                <div class="photo-box">
+                    <div><img src="images/photo-1.1.jpg" ></div>
+                    <div><img src="images/photo-2.2.jpg" ></div>
+                    <div><img src="images/photo-3.3.jpg" ></div>
+                    <div><img src="images/photo-4.4.jpg" ></div>
+                    <div><img src="images/photo-5.5.jpg" ></div>
+                    <div><img src="images/photo-6.6.jpg" ></div>
+                    
+                </div>
+             </div>
+             
+
+
+             <div class="profile-intro">
+                <div class="title-box">
+                    <h3>Friends</h3>
+                    <a href="#">All Friends</a>
+                  </div>
+                  <p>120 (10 mutual)</p>
+                
+                <div class="friends-box">
+                    <div><img src="images/member-1.11.jpg" > <p>Maisam Ali</p></div>
+                    <div><img src="images/member-2.22.jpg" > <p>Syed Razi</p></div>
+                    <div><img src="images/member-3.33.jpg" > <p>Danish </p></div>
+                    <div><img src="images/member-4.44.jpg" > <p>Mehdi Raza</p></div>
+                    <div><img src="images/member-5.55.jpg" > <p>Hussnian </p></div>
+                    <div><img src="images/member-6.66.jpg" > <p>Zohaib Malik</p></div>
+                    <div><img src="images/member-7.77.jpg" > <p>Bashir Hussain</p></div>
+                    <div><img src="images/member-8.88.jpg" > <p>Mushtaq </p></div>
+                    <div><img src="images/member-9.99.jpg" > <p>Shahzaib </p></div>
+                    
+                    
+                </div>
+             </div>
+
+
+
+
+
+        </div>
+        <div class="post-col">
+            <!---------------- copy from index file-------------->
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/profile-pic1.jpg" >
+                    <div>
+                <p>Shafiq Hussain</p>
+                <small>Public <i class="fas fa-caret-down"></i></small>
+                </div>
+                 </div>
+                 <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind, Shafiq?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png" > Live Video</a>
+                        <a href="#"><img src="images/photo.png" > Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png" > Feeling/Activity</a>
+                    </div>
+                  </div>
+          </div>
+           <!---------------- Again copy post-container from index file ------------->
+         
+           <div class="post-container">
+
+            <div class="post-row">
+
+                <div class="user-profile">
+                    <img src="images/profile-pic1.jpg" >
+                    <div>
+                <p>Shafiq Hussain</p>
+                <span>June 24 2021, 13:40 pm</span>
+                </div>
+                </div>
+               <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text">Subscribe to my YouTube channel to watch more videos on website development and UI designs! 🎥💻✨
+               <a href="#">#WebDevelopment</a>
+               <a href="#">#YoutubeChannel</a>
+            </p>
+            <img src="images/feed-image-1.png" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like-blue.png">120</div>
+                    <div><img src="images/comments.png">45</div>
+                    <div><img src="images/share.png">20</div>
+
+                </div>
+                <div class="post-profile-icon">
+              <img src="images/profile-pic1.jpg"><i class="fas fa-caret-down"></i>
+                </div>
+            </div>
+            
+        </div>
+        
+
+        <div class="post-container">
+
+            <div class="post-row">
+
+                <div class="user-profile">
+                    <img src="images/profile-pic1.jpg" >
+                    <div>
+                <p>Shafiq Hussain</p>
+                <span>May 3 2020, 1:40 pm</span>
+                </div>
+                </div>
+               <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text">Spending time with friends is one of life's greatest joys. Picture a warm summer evening with the golden sun setting, laughter echoing, the smell of barbecue, and your favorite music – pure relaxation and happiness. 🌅🍔🎶   
+               <a href="#">#Friendship</a>
+               <a href="#">#GoodTimes</a>
+            </p>
+            <img src="images/feed-image-2.png" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like-blue.png">250</div>
+                    <div><img src="images/comments.png">50</div>
+                    <div><img src="images/share.png">25</div>
+
+                </div>
+                <div class="post-profile-icon">
+              <img src="images/profile-pic1.jpg"><i class="fas fa-caret-down"></i>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="post-container">
+
+            <div class="post-row">
+
+                <div class="user-profile">
+                    <img src="images/profile-pic1.jpg" >
+                    <div>
+                <p>Shafiq Hussain</p>
+                <span>Aug 1 2019, 12:05 pm</span>
+                </div>
+                </div>
+               <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text">Exploring the streets with friends, filled with laughter and adventure, creates unforgettable memories. 🚶‍♂️😂🌃 
+               <a href="#">#StreetFun </a>
+               <a href="#">#FriendshipMoments</a>
+            </p>
+            <img src="images/feed-image-3.png" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like-blue.png">567</div>
+                    <div><img src="images/comments.png">80</div>
+                    <div><img src="images/share.png">15</div>
+
+                </div>
+                <div class="post-profile-icon">
+              <img src="images/profile-pic1.jpg"><i class="fas fa-caret-down"></i>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="post-container">
+
+            <div class="post-row">
+
+                <div class="user-profile">
+                    <img src="images/profile-pic1.jpg" >
+                    <div>
+                <p>Shafiq Hussain</p>
+                <span>January 05 2019, 4:40 am </span>
+                </div>
+                </div>
+               <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text">Diving into books and knowledge, every page turned is a step closer to success. 📚💡✍️ 
+               <a href="#">#StudyTime</a>
+               <a href="#"> #LearningJourney</a>
+            </p>
+            <img src="images/feed-image-4.png" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like-blue.png">250</div>
+                    <div><img src="images/comments.png">75</div>
+                    <div><img src="images/share.png">35</div>
+
+                </div>
+                <div class="post-profile-icon">
+              <img src="images/profile-pic1.jpg"><i class="fas fa-caret-down"></i>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="post-container">
+
+            <div class="post-row">
+
+                <div class="user-profile">
+                    <img src="images/profile-pic1.jpg" >
+                    <div>
+                <p>Shafiq Hussain</p>
+                <span>Feb 10 2018, 3:40 pm</span>
+                </div>
+                </div>
+               <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text">Engaging in deep discussions with friends sparks new ideas and insights. 🗣️💡🤝  
+               <a href="#">#ThoughtExchange</a>
+               <a href="#">#BrainstormingSessions</a>
+            </p>
+            <img src="images/feed-image-5.png" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like-blue.png">450</div>
+                    <div><img src="images/comments.png">50</div>
+                    <div><img src="images/share.png">30</div>
+
+                </div>
+                <div class="post-profile-icon">
+              <img src="images/profile-pic1.jpg"><i class="fas fa-caret-down"></i>
+                </div>
+            </div>
+            
+        </div>
+        </div>
+      </div>
+
+
+</div>
+
+<div class="footer">
+    <p>Copyright 2021 - Web Development YouTube Channel</p>
+</div>
+
+<script src="script.js"></script>
+    
+</body>
+</html>
